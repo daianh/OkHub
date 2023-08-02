@@ -115,10 +115,9 @@ const Section4 = () => {
                       </div>
                       <div>
                         <p>
-                          <span>{item.date}</span> / <span>{item.tag}</span>
+                          <span>{item.date}</span>  <span>{item.tag}</span>
                         </p>
                         <p>{item.content}</p>
-                        <button>See more +</button>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -134,10 +133,10 @@ const Section4 = () => {
               </div>
 
               <div
-                className="swiper-scrollbar my-custom-scrollbar"
+                className="swiper-scrollbar my-custom-scrollbar cursor-pointer"
                 ref={scrollbarRef}
               >
-                <div className="swiper-scrollbar-drag"></div>
+                <div className="swiper-scrollbar-drag cursor-pointer"></div>
               </div>
             </Swiper>
           </motion.div>

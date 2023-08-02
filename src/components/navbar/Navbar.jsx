@@ -126,7 +126,6 @@ const Navbar = () => {
                             .content
                         }
                       </p>
-                      <button>See More +</button>
                     </div>
                   </div>
                 </div>
